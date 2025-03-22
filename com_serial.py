@@ -20,8 +20,5 @@ with open("data.csv", "w") as file:
                 formatted_data = f"{parts[0]},{parts[1]},{parts[2]},{parts[3]}\n"
                 file.write(formatted_data)
 
-# Note: The script will run indefinitely until manually stopped
-# You might want to add a condition to break out of the loop
-# Close the serial port
 ser.close()
 
